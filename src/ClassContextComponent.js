@@ -4,8 +4,8 @@ import { ThemeContext } from "./App";
 export default class ClassContextComponent extends Component {
   themeStyles(dark) {
     return {
-      backgroundColor: dark ? "#CCC" : "#333",
-      color: dark ? "#333" : "#CCC",
+      backgroundColor: dark ? "#333" : "#CCC",
+      color: dark ? "#CCC" : "#333",
       padding: "2rem",
       margin: "2rem",
     };
